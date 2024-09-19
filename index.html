@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario Lucido - Home</title>
+    <title>Mario Lucido - Software Developer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header>
         <nav>
             <ul>
@@ -17,15 +18,81 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Main Section -->
     <main>
+        <!-- Introduction Section -->
         <section class="intro">
-            <h1>Welcome! I'm Mario Lucido</h1>
-            <p>I am a passionate computer science student with a focus on software development, eager to tackle challenging projects and create innovative solutions.</p>
+            <h1>Hello! I'm Mario Lucido</h1>
+            <p>Computer Science student and aspiring software developer with a passion for problem-solving and building innovative solutions. Looking for internship opportunities to gain practical experience.</p>
+            <a href="MarioLucido_Resume.pdf" class="button" download>Download Resume</a>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skill-tiers">
+                <div class="tier">
+                    <h3>Proficient</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="tier">
+                    <h3>Intermediate</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tier">
+                    <h3>Familiar</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>LaTeX</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Highlighted Projects</h2>
+            <div class="project">
+                <h3>Breakout Game (Java)</h3>
+                <p>Developed a classic arcade game with upgrades and collision mechanics. Focused on OOP concepts like inheritance and interaction between objects.</p>
+                <a href="projects.html#breakout" class="button">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Plants vs Zombies Clone (Java)</h3>
+                <p>Recreated a tower defense game with complex game logic, demonstrating skills in inheritance, polymorphism, and debugging.</p>
+                <a href="projects.html#pvz" class="button">View Project</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:MarioLucido94@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2024 Mario Lucido. All rights reserved.</p>
+        <p> Mario Lucido.</p>
     </footer>
 </body>
 </html>
-

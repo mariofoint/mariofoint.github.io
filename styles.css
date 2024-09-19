@@ -1,73 +1,38 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
+    text-align: center;
     padding: 10px 0;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.intro, .skills, .projects, .contact {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-.intro h1 {
-    font-size: 2.5em;
-}
-
-.skills ul, .projects ul {
-    list-style: none;
+    margin: 0;
     padding: 0;
 }
 
-.projects .project {
-    margin: 20px 0;
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact label {
-    margin-bottom: 5px;
-}
-
-.contact input, .contact textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 1em;
-}
-
-.button {
-    background-color: #5cb85c;
+header nav ul li a {
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
 }
 
 footer {
@@ -75,4 +40,59 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    width: 100%;
+}
+
+/* Sticky Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.skill-tier {
+    flex-basis: 30%;
+}
+
+.skill-tier h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.skill-tier ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-tier ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
 }
