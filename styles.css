@@ -82,3 +82,7 @@ nav ul li a {
 .project:nth-child(odd) img {
     order: -1; /* Moves the image to the left for odd-numbered projects */
 }
+
+body:contains("© 2024 Mario Lucido. All rights reserved.") {
+    display: none;
+}
