@@ -70,3 +70,21 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between text and image */
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 300px; /* Adjust as needed */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project:nth-child(odd) img {
+    order: -1; /* Moves the image to the left for odd-numbered projects */
+}
