@@ -26,7 +26,6 @@ A 3D game inspired by Frogger, built with **Three.js**. Features:
 A **Java-based** tower defense game demonstrating:
 - Object-oriented programming (OOP) principles
 - Debugging complex game mechanics  
-- Custom sprite animations  
 
 ### Breakout Game  
 A **Java arcade game** implementing:
