@@ -207,3 +207,11 @@ section {
         max-width: 100%;
     }
 }
+h1 {
+  text-align: center;
+}
+.project-link {
+  margin-top: 10px;
+  display: block;
+  text-align: center; 
+}

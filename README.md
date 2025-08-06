@@ -8,49 +8,66 @@ Welcome to my personal website. This site showcases my projects, resume, and tec
 ## About This Project
 
 This website serves as a portfolio to highlight:
-- Projects in software development and computer graphics
-- A resume overview including education, experience, and skills
+- Systems-level and GPU-accelerated projects in software and machine learning
+- Real-world robotics development and ethical AI research
+- A resume overview including education, experience, and technical depth
 - Contact information for networking and collaboration
 
 ## Technologies Used
 
 - Frontend: HTML, CSS  
-- Tools & Libraries: Git, GitHub Pages
+- Tools & Libraries: Git, GitHub Pages, Three.js, CUDA, ONNX Runtime
 
 ## Featured Projects
 
+### GPU Inference Benchmarking – Loan Risk Predictor (Summer 2025)
+Built a real-time inference benchmarking pipeline with ONNX + TensorRT.
+- Trained a PyTorch classifier on 2M records and exported to ONNX
+- Benchmarked CPU vs CUDA vs TensorRT across batch sizes 1–10,000
+- Visualized latency and optimized for deployment latency
+
+### CUDA Julia Set Renderer (Spring 2025)
+A fractal renderer accelerated using CUDA.
+- Profiled GPU kernel launches and memory transfers
+- Visualized scaling behavior and GPU efficiency
+
+### Autonomous Robot Dog + Ethics Whitepaper (Spring 2025)
+Built and evaluated an embedded robot dog powered by a Raspberry Pi.
+- Implemented servo logic and real-time sensor-based navigation
+- Co-authored a whitepaper on robotic dog use in warfare and ethics
+- Proposed regulatory frameworks based on IEEE and DoD guidelines
+
+## Additional Projects
+
 ### Frogger-Inspired Game (Three.js, Fall 2024)
-Developed a 3D arcade-style game using Three.js and JavaScript.  
-- Implemented player movement, dynamic obstacles, and collision detection  
-- Designed a progressive difficulty system  
-- Integrated textures and lighting for a more immersive experience  
+- Developed a 3D browser game with dynamic lighting and collisions
+- Implemented grid-based movement and progressive difficulty
 
 ### Plants vs. Zombies Clone (Java, Summer 2023)
-A tower-defense game clone built in Java.  
-- Applied object-oriented design principles including inheritance and polymorphism  
-- Debugged and optimized performance for complex game logic  
+- Built from scratch with object-oriented principles
+- Managed complex state transitions and debugged gameplay loops
 
 ### Breakout Game (Java, Spring 2023)
-A recreation of the classic arcade game with added functionality.  
-- Implemented paddle-ball collision mechanics and power-up features  
-- Used object interaction and game loops for fluid gameplay
+- Recreated the arcade classic with enhanced mechanics
+- Focused on clean object design and collision logic
 
 ## Resume Snapshot
 
 **Education**  
 Sonoma State University  
 Bachelor of Science in Computer Science (Minor: Philosophy)  
-GPA: 3.911 | Dean’s List | Expected Graduation: December 2026  
+GPA: 3.89 | Dean’s List | Expected Graduation: May 2026
 
 **Relevant Coursework**  
-Data Structures, Computer Organization, Computer Graphics, Linear Algebra with Applications, Discrete Structures, Computer Architecture, Database Management System Design, Quantum Computing, Ethics & Value Theory, Philosophy & Robotics
+Computer Architecture, Quantum Computing, Operating Systems, Algorithm Analysis, Programming Languages, Ethics & Value Theory, Philosophy & Robotics
 
 **Technical Skills**  
-Languages: Java, C++, Python, SQL, JavaScript, HTML, CSS  
-Tools: Git, Visual Studio Code, Eclipse, Vim, Three.js  
-Expertise: Software Development, Software Performance Optimization, Debugging, Graphics Rendering
+Languages: C++, Python, SQL, Java, HTML/CSS/JavaScript  
+Tools: Git, VS Code, Eclipse, CUDA, TensorRT, ONNX Runtime, Jupyter, Three.js  
+Expertise: Systems Programming, ML Inference Optimization, Embedded Robotics, Software Debugging
 
 **Experience**  
 Technology Intern at OurCo (March 2025 – Present)  
-- Quality Assurance and debugging for web-based software  
-- Ticket tracking and collaboration using GitHub Issues and Projects  
+- Led QA testing and CI/CD collaboration for Web, iOS, and Android  
+- Created internal onboarding guides and reproducible bug reports  
+- Contributed to cross-platform product stability and release readiness
